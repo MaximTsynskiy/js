@@ -1,0 +1,45 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+html{
+	min-width: 1350px;
+	max-width: 1500px;
+}
+
+body{background: url(img/269.jpg) no-repeat 100% 100%; background-size: cover;}
+#wrapper{width: 90%; height: 1300px; margin: 15px auto;}
+
+header{width: 100%; height: 250px;; margin-bottom: 30px;
+border-radius: 20px; background: rgba(43,43,46, 0.7)}
+#topImg{width: 250px; height: 250px; margin-left: 15px; float: left;}
+header p{float: left; color: burlywood; font: bold italic 40px Tahoma; margin: 120px 0 0 40px}
+#headImg{float: left; margin: 30px 0 0 60px}
+header button{float: right;padding: 10px; border-radius: 20px; background: rgba(179,177,180, 0.5); border: 0; cursor: pointer;}
+
+nav{width: 100%; height: 100px; border: 1px solid grey}
+
+#menu{width: 100%; height: 690px; overflow: hidden}
+
+#leftbar{float: left; width: 25%; height: 690px; border-radius: 20px; padding: 10px; color: white; background: rgba(43,43,46, 0.7);}
+#leftbar form{margin: 20px 0 0 50px}
+#leftbar p, #leftbar input{margin-bottom: 11px;}
+#leftImg{width: 90%; height: 90%}
+
+section{float: left; width: 45%; height: 690px; position: relative; border-radius: 20px; background: rgba(43,43,46, 0.7); margin-left: 2.5%;}
+/*#mainDiv{width: 100%; height: 100%; position: absolute; margin: 0 auto;}*/
+section img{position: absolute; z-index: 1;}
+
+
+#rightbar{float: right; width: 25%; height: 690px; border-radius: 20px; background: rgba(43,43,46, 0.7);}
+#rightbar p {color: white; visibility: visible; height: 25px;}
+#rightbar input {width: 200px;}
+#form1{margin: 20px 0 20px 20px;}
+#form1 input {margin-bottom: 7px; border-radius: 10px; height: 30px; border: 0; padding-left: 10px}
+#rightImg{width: 100%; height: 80%}
+#totP{color: mediumspringgreen}
+.error {background-color: #fc6363;}
+.valid {background-color: #81e569;}
+#rightbar button {padding: 5px 10px; border-radius: 9px; margin-top: 10px; width: 70px; border: 0}
+
+footer{width: 100%; height: 250px; background: rgba(43,43,46, 0.7); margin: 30px 0; border-radius: 20px;}
+#foterImg{float: left; margin-left: 100px;}
+#foterContacts{float: left; margin: 5% 0 0 15%; font-size: 32px; color: #FBD62F;}
+#foterImg2{float: right; }

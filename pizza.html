@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Pizza</title>
+    <link rel="stylesheet" href="pizza.css">
+    
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="topImg"><img src="img/233.png"></div>
+            <p>Создай свою пиццу!</p>
+            <div id="headImg"><img id="rightImg" src="img/3754.png" width="100px" height="70px"></div>
+            <button id="changeFon">Сменить фон</button>
+        </header>
+        
+<!--
+        <nav>
+        </nav>
+-->
+        
+        <div id="menu">
+            
+            <div id="leftbar">
+                <form name="sizePizza">
+                    <p>Выбор пиццы:</p>
+                    <input type="radio" id="smallPizza" name="pizz" value="50" checked>&nbsp&nbsp Маленькая<br>
+                    <input type="radio" id="middlePizza" name="pizz" value="75">&nbsp&nbsp Средьняя<br>
+                    <input type="radio" id="bigPizza" name="pizz" value="100">&nbsp&nbsp Большая<br>
+                </form>
+                <form name="igrPizza">
+                    <p>Выбор ингридиентов:</p>
+                    <input type="checkbox" name="in1" value="10">&nbsp&nbsp Бекон<br>
+                    <input type="checkbox" name="in2" value="10">&nbsp&nbsp Грибы<br>
+                    <input type="checkbox" name="in3" value="8">&nbsp&nbsp Колбаса<br>
+                    <input type="checkbox" name="in4" value="12">&nbsp&nbsp Оливки<br>
+                    <input type="checkbox" name="in5" value="7">&nbsp&nbsp Спаржа<br>
+                    <input type="checkbox" name="in6" value="10">&nbsp&nbsp Сыр<br>
+                </form>
+                <div id="leftDiv"><img id="leftImg" src="img/3786.png"></div>
+                
+            </div>
+            <section>
+<!--                <div id="mainDiv">-->
+                    <img id="mainImg" src="img/main.png">
+                    <img id="1becon" src="img/1becon.png" value='5' style="display: none">
+                    <img id="2grib" src="img/2grib.png" value='5' style="display: none">
+                    <img id="3kolbasa" src="img/3kolbasa.png" value='5' style="display: none">
+                    <img id="4olivki" src="img/4olivki.png" value='5' style="display: none">
+                    <img id="5spise" src="img/5spise.png" value='5' style="display: none">
+                    <img id="6siiirrr" src="img/6siiirrr.png" value='5' style="display: none">
+<!--                </div>-->
+            </section>
+            <div id="rightbar">
+                <form id="form1" name="form1" action="test.php">
+                    <input type="text" id="fName" name="fName" value="" placeholder="" 
+                        data-val="[A-Za-zА-Яа-я]{2,}"
+                        data-val-msg="Введите имя"
+                        data-val-msg-id="userNameMsg">
+                    <p id="userNameMsg"></p>
+                    <input type="text" name="phone" value="" placeholder=""
+                        data-val="\d{3}-\d{7}"
+                        data-val-msg="Телефон введен не правильно"
+                        data-val-msg-id="emailMsg">
+                    <p id="emailMsg"></p>
+                    <input type="text" name="address" value="" placeholder=""
+                        data-val="[A-zА-я\s,\d\\]{3,}"
+                        data-val-msg="Адресс введен не правильно"
+                        data-val-msg-id="zipMsg">
+                    <p id="zipMsg"></p><br>
+                    <p id="totP">Стоимость в грн:</p>
+                    <input id="totalPrice" readonly type="text" name="totalPrice" value="50"><br>
+                    
+                    <button>Заказать</button><br>
+                </form>
+                
+            </div>
+            
+        </div>
+        <footer>
+            <div id="foterImg">
+                <img src="img/3782.png" width="200px" height="250px">
+            </div>
+            <div id="foterContacts">
+                <p>Pizza Family</p>
+                <p>(044)555-55-55</p>
+            </div>
+            <div id="foterImg2">
+                <img src="img/fon45.gif" width="280px" height="250px">
+            </div>
+        </footer>
+        
+    </div>
+
+<script src="pizza.js"></script>
+<script type="text/javascript" src="validate.js"></script>
+</body>
+</html>
